@@ -2,35 +2,35 @@
 
 **Um Capture The Flag educacional da Hackers Hive.**
 
-> **Status:** Em desenvolvimento — MVP 0.1 planejado com cinco desafios.
+> **Status:** Em desenvolvimento — versão inicial planejada com cinco desafios. O acesso será controlado durante os testes.
 
-O **Operation Black Hive** é uma experiência de aprendizagem em cibersegurança baseada em desafios progressivos de investigação. O participante assume o papel de analista convidado a avaliar um cenário corporativo fictício, identificar evidências e compreender como diferentes falhas de segurança se relacionam.
+O **Operation Black Hive** é uma experiência de aprendizagem em cibersegurança baseada em cinco desafios progressivos de **segurança ofensiva e CTF clássico**. O participante explora um cenário corporativo fictício, identifica pistas e resolve problemas de Web, encoding, enumeração e controle de acesso, avançando até uma exploração final de lógica de aplicação.
 
 O universo do CTF gira em torno da **Asterion Technologies**, uma empresa fictícia criada exclusivamente para fins educacionais. Sites, usuários, documentos, transações e registros utilizados nos desafios serão simulados.
 
 ## Objetivo
 
-Transformar conceitos de reconhecimento, enumeração, segurança de aplicações, identidade e resposta a incidentes em uma jornada prática, com foco em **raciocínio técnico, análise de evidências e comunicação de resultados**.
+Transformar conceitos de inspeção web, encoding, enumeração, segurança de APIs e exploração de falhas de lógica em uma jornada prática, com foco em **raciocínio ofensivo, experimentação autorizada e interpretação de resultados**.
 
 O projeto foi concebido para apoiar aulas, demonstrações, mentorias e o estudo individual.
 
-## Os cinco desafios do MVP
+## Os cinco desafios — Versão Inicial
 
-| Nível | Desafio | Tema | O que o participante aprenderá |
+| Nível | Desafio | Categoria | Proposta |
 | --- | --- | --- | --- |
-| 01 | **Digital Footprint** | OSINT e reconhecimento | Analisar informações públicas e metadados de um ambiente fictício para identificar pistas relevantes. |
-| 02 | **Forgotten Endpoint** | Enumeração web e API | Investigar recursos web, respostas HTTP e referências a serviços não documentados. |
-| 03 | **The Missing Invoice** | IDOR / BOLA | Compreender falhas de autorização em objetos de uma aplicação, utilizando dados de laboratório. |
-| 04 | **Ghost Employee** | Identidade e privilégios | Correlacionar usuários, grupos e permissões e identificar inconsistências de acesso. |
-| 05 | **Incident Timeline** | DFIR e correlação | Reconstruir a sequência de um incidente a partir de logs e outras evidências simuladas. |
+| 01 | **Hidden Flag** | Web / Recon — Fácil | Inspecionar elementos de uma página web e descobrir a primeira flag. |
+| 02 | **Decode the Secret** | Crypto / Encoding — Fácil | Interpretar dados codificados e resolver pistas clássicas de CTF. |
+| 03 | **Forgotten Endpoint** | Web Enumeration — Médio | Investigar recursos HTTP e descobrir funcionalidades não documentadas da aplicação fictícia. |
+| 04 | **Broken Access** | Web / API — Médio | Identificar uma falha de autorização por objeto (IDOR/BOLA) usando dados fictícios. |
+| 05 | **The Final Breach** | Web Exploitation — Médio/avançado | Combinar pistas e falhas controladas de lógica de autorização para realizar uma ação administrativa **simulada** e conquistar a flag final. |
 
-Os desafios têm **dificuldade progressiva** e compartilham elementos da mesma história. O último nível exige a correlação de informações obtidas ao longo da investigação.
+A dificuldade cresce ao longo dos níveis. O desafio final exige **exploração encadeada de funcionalidades web**, sem execução de código no servidor, acesso ao sistema operacional ou escalada real de privilégios. Os detalhes e as soluções serão mantidos fora deste repositório público.
 
 ## Como funciona
 
 1. O participante acessa a plataforma e conhece o cenário da Asterion Technologies.
 2. Cada nível apresenta um objetivo e os materiais necessários à investigação.
-3. A resolução exige interpretação técnica e, quando aplicável, interação com ambientes preparados para treinamento.
+3. A resolução combina observação, testes ofensivos controlados e interpretação de respostas de ambientes preparados para treinamento.
 4. O participante envia uma *flag* para validar a conclusão e acumular pontos.
 5. Um ranking registra o desempenho, conforme as regras da edição.
 
@@ -39,7 +39,7 @@ A primeira versão será testada com **acesso controlado**, antes de uma eventua
 ## Público-alvo
 
 - Estudantes de cibersegurança e segurança da informação.
-- Profissionais iniciantes em pentest, SOC e análise de incidentes.
+- Profissionais e estudantes interessados em pentest, aplicações web e segurança ofensiva.
 - Participantes de cursos, aulas práticas e mentorias da Hackers Hive.
 - Pessoas interessadas em aprender por meio de desafios técnicos contextualizados.
 
@@ -48,7 +48,7 @@ A primeira versão será testada com **acesso controlado**, antes de uma eventua
 - **Evidência antes de conclusão:** toda hipótese deve ser sustentada por observações verificáveis.
 - **Progressão:** desafios conectados, sem depender apenas da memorização de comandos.
 - **Realismo responsável:** situações inspiradas em problemas encontrados no mundo real, mas com dados e identidades fictícios.
-- **Aprendizagem defensiva:** compreender falhas, impactos e mecanismos de prevenção.
+- **Raciocínio ofensivo responsável:** reconhecer superfícies de ataque e validar falhas dentro do escopo autorizado.
 - **Ética e autorização:** toda atividade ocorre exclusivamente dentro do escopo permitido pelo laboratório.
 
 ## Regras gerais de participação
@@ -64,11 +64,15 @@ As regras operacionais detalhadas serão apresentadas na própria plataforma qua
 ## Roteiro do projeto
 
 - [ ] Publicar a experiência inicial da Asterion Technologies.
-- [ ] Disponibilizar os cinco desafios do MVP.
+- [ ] Disponibilizar os cinco desafios da versão inicial.
 - [ ] Integrar submissão de flags e ranking.
 - [ ] Realizar testes com uma turma convidada.
 - [ ] Revisar acessibilidade, clareza das instruções e dificuldade.
 - [ ] Avaliar a abertura permanente ao público.
+
+## Evolução do projeto
+
+A versão inicial utiliza um escopo reduzido para validação didática. Novas versões poderão incluir outras categorias, desafios, regras de participação e links de acesso, que serão publicados quando estiverem definidos e testados.
 
 ## Disponibilidade
 
